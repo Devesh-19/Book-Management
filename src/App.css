@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
+
+* {
+	background-color: floralwhite;
+}
+
+.app {
+	height: 100vh;
+}
+
+.content {
+	padding-top: 20px;
+	text-align: center;
+}
+
+header > h1 {
+	margin-bottom: 20px;
+	font-family: "Playfair Display", serif;
+}
+
+.link {
+	margin: 10px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.link:hover {
+	color: rgba(16, 131, 185, 0.87);
+}
+
+.active {
+	font-weight: 500;
+	color: mediumvioletred;
+}
+
+hr {
+	margin-bottom: 30px;
+}
+
+.message {
+	font-size: 23px;
+}
+
+.errorMsg {
+	color: red;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.main-form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40vw;
+}
+
+.form-group {
+	margin-top: 20px;
+}
+
+.input-label {
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.submit-btn {
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.book-list {
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.book {
+	margin: 10px;
+	overflow: hidden;
+}
+
+.book div,
+.book span {
+	background-color: unset;
+}
+
+.book-title {
+	font-weight: 700;
+	color: saddlebrown;
+}
+
+.book-details {
+	margin: 10px 20px 20px 20px;
+	text-align: left;
+}
+
+.book-details-title {
+	font-weight: 500;
+}
+
+.book-btn {
+	margin: auto 10px;
+	width: 75px;
+}
